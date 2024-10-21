@@ -1,0 +1,11 @@
+﻿@* Стандартне представлення для головної сторінки *@
+@{
+    ViewData["Title"] = "Головна сторінка";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p><strong>Прізвище та ім'я:</strong> @ViewBag.StudentName</p>
+<p><strong>Номер групи:</strong> @ViewBag.GroupNumber</p>
+<p><strong>Назва вузу:</strong> @ViewBag.University</p>
+<p><strong>Тема курсового проекту:</strong> @ViewBag.ProjectTopic</p>
